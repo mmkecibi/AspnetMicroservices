@@ -1,3 +1,34 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{43AC1340-E36D-4420-ACB8-8301856104B4}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Services.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Catalog/Catalog.API/appsettings.json">
+    <Files>
+      <File FileName="Services/Catalog/Catalog.API/appsettings.json" Line="11" Column="1" />
+      <File FileName="Services/Catalog/Catalog.API/Program.cs" Line="1" Column="1" />
+      <File FileName="Services/Catalog/Catalog.API/WeatherForecast.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="aspnetrun-microservices" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="Catalog" expanded="True">
+                <Node name="Catalog.API" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
 </Properties>
