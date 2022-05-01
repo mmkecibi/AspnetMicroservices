@@ -1,46 +1,47 @@
-﻿<Properties StartupConfiguration="{E2859AA1-F16E-46AC-BE56-6E7388BCEB68}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Services.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
+﻿<Properties StartupConfiguration="{6C667BD2-CECC-4BA5-8119-C127E723A073}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/mkecibi/Projects/Microservices/AspnetMicroservices/src/Services/Catalog/Catalog.API/Startup.cs" relfile="Services/Catalog/Catalog.API/Startup.cs" line="31" column="1" />
       <Breakpoint file="/Users/mkecibi/Projects/Microservices/AspnetMicroservices/src/Services/Catalog/Catalog.API/Startup.cs" relfile="Services/Catalog/Catalog.API/Startup.cs" line="15" column="1" />
       <Breakpoint file="/Users/mkecibi/Projects/Microservices/AspnetMicroservices/src/Services/Catalog/Catalog.API/Controllers/CatalogController.cs" relfile="Services/Catalog/Catalog.API/Controllers/CatalogController.cs" line="32" column="1" />
+      <Breakpoint file="/Users/mkecibi/Projects/Microservices/AspnetMicroservices/src/Services/Basket/Basket.API/Entities/BasketCheckout.cs" relfile="Services/Basket/Basket.API/Entities/BasketCheckout.cs" line="9" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Catalog/Catalog.API/Controllers/CatalogController.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Basket/Basket.API/Startup.cs">
     <Files>
-      <File FileName="docker-compose.yml" Line="7" Column="30" />
-      <File FileName="Services/Catalog/Catalog.API/Entities/Product.cs" Line="15" Column="46" />
-      <File FileName="../../../../../../Applications/Visual Studio (Preview).app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="199" Column="5" />
-      <File FileName="Services/Catalog/Catalog.API/Data/CatalogContextSeed.cs" Line="9" Column="26" />
-      <File FileName="Services/Catalog/Catalog.API/appsettings.json" Line="3" Column="45" />
-      <File FileName="docker-compose.override.yml" Line="14" Column="1" />
-      <File FileName="Services/Catalog/Catalog.API/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="Services/Catalog/Catalog.API/Controllers/CatalogController.cs" Line="37" Column="1" />
-      <File FileName="Services/Catalog/Catalog.API/appsettings.Development.json" Line="6" Column="5" />
+      <File FileName="Services/Basket/Basket.API/Controllers/BasketController.cs" Line="13" Column="20" />
+      <File FileName="Services/Basket/Basket.API/Entities/ShoppingCart.cs" Line="15" Column="16" />
+      <File FileName="Services/Basket/Basket.API/Entities/BasketCheckout.cs" Line="1" Column="1" />
+      <File FileName="Services/Basket/Basket.API/Entities/ShoppingCartItem.cs" Line="1" Column="1" />
+      <File FileName="Services/Basket/Basket.API/Repositories/BasketRepository.cs" Line="8" Column="2" />
+      <File FileName="Services/Basket/Basket.API/Repositories/IBasketRepository.cs" Line="1" Column="1" />
+      <File FileName="Services/Catalog/Catalog.API/Startup.cs" Line="1" Column="1" />
+      <File FileName="Services/Basket/Basket.API/Startup.cs" Line="34" Column="71" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="aspnetrun-microservices" expanded="True">
             <Node name="Services" expanded="True">
+              <Node name="Basket" expanded="True">
+                <Node name="Basket.API" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Entities" expanded="True" />
+                  <Node name="Repositories" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Catalog" expanded="True">
                 <Node name="Catalog.API" expanded="True">
                   <Node name="Dependencies" expanded="True">
-                    <Node name="FrameworkReferences" expanded="True" />
+                    <Node name="PackageDependencies" expanded="True" />
                   </Node>
                   <Node name="Controllers" expanded="True" />
-                  <Node name="Data" expanded="True" />
-                  <Node name="Entities" expanded="True" />
-                  <Node name="Properties" expanded="True" />
-                  <Node name="Repositories" expanded="True" />
-                  <Node name="appsettings.json" expanded="True" />
                 </Node>
               </Node>
             </Node>
-            <Node name="docker-compose" expanded="True" selected="True">
+            <Node name="docker-compose" expanded="True">
               <Node name="docker-compose.yml" expanded="True" />
             </Node>
           </Node>
@@ -51,6 +52,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Services.Basket.Basket.API PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Services.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome 2.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
